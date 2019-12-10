@@ -1,0 +1,75 @@
+/*hoja con estilos*/
+
+body{
+	margin:0;
+	padding: 0px;
+	background-image: URL("imagenes/beans.jpg");
+	background-size: 100% 100%;
+	background-attachment:fixed;
+}
+
+#contenedor{
+/*border*/
+
+	width:1300px;
+	margin:auto;
+	margin-top:20px;
+	padding:0px;
+	background-color:white;
+}
+	
+	 
+#encabezado{
+	color: #333;
+	font-size: 70px;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	width: 960px;
+	height: 150px;
+	background-color: #000;
+	margin-top: 10px;
+}
+#MENU{
+	width:960px;
+	height:50px;
+	background-color:#F03;
+	font-size: 48PX;
+	font-family: 'Times New Roman', Times, serif;
+	font-style:italic;
+	
+}
+#contenido{
+	height:900px;
+	width:700px;
+	margin-top:10px;
+	float:left;
+	background-color:#0C9;
+}
+
+#publicidad{
+	width:250px;
+	height:900px;
+	float:right;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:#306;
+	}
+#pie{
+		width:960px;
+		height:50px;
+		background-color:#00F;
+		clear:both;
+	}
+#Texto2{
+		color: #003;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 54px;
+	text-align: right;
+	
+	
+	}.parrafo {
+}
+#Back #Contder1 p {
+	text-align: center;
+	font-size: 24px;
+}

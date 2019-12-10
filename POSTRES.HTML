@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Postres</title>
+<link rel="stylesheet" href="Estilos.css"
+type="text/css">
+<style type="text/css">
+#Back {
+	position: absolute;
+	width: 1300px;
+	height: 1200px;
+	z-index: 0;
+	background-color: #000000;
+	
+}
+#encabezado1 {
+	position: absolute;
+	width: 1050px;
+	height: 100px;
+	z-index: 1;
+	background-color: #A48C36;
+	font-style: italic;
+	text-align: center;
+}
+#Contizq1 {
+	position: absolute;
+	width: 300px;
+	height: 1025px;
+	z-index: 0;
+	left: 0px;
+	top: 175px;
+	background-color:#E1C766 ;
+}
+#Contder1 {
+	position: absolute;
+	width: 300px;
+	height: 1025px;
+	z-index: 0;
+	background-color:#E1C766 ;
+	left: 1000px;
+	top: 175px;
+}
+#menu1 {
+	position: absolute;
+	width: 1100px;
+	height: 75px;
+	z-index: 0;
+	background-color: #A48C36;
+	left: 0px;
+	top: 100px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 36px;
+	text-align: center;
+}
+#Pie1 {
+	position: absolute;
+	width: 1300px;
+	height: 75px;
+	z-index: 0;
+	background-color: #A48C36;
+	left: 0px;
+	top: 1125px;
+}
+#boton1 {
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	z-index: 1;
+	left: 10px;
+	top: 10px;
+	
+	
+}
+#boton2 {
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	z-index: 2;
+	
+	left: 220px;
+	top: 10px;
+}
+#boton3 {
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	z-index: 3;
+	left: 470px;
+	top: 10px;
+}
+#boton4 {
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	z-index: 4;
+	left: 720px;
+	top: 10px;
+}
+#Logo {
+	position: absolute;
+	width: 250px;
+	height: 175px;
+	z-index: 1;
+	background-color: #A48C36;
+	left: 1050px;
+	top: 0px;
+}
+#Central {
+	position: absolute;
+	width: 700px;
+	height: 950px;
+	z-index: 1;
+	background-color: #A48C36;
+	left: 300px;
+	top: 175px;
+}
+#Grande {
+	position: absolute;
+	width: 500px;
+	height: 400px;
+	z-index: 1;
+	background-color: #A48C36;
+	left: 100px;
+	top: 530px;
+}
+#uno {
+	position: absolute;
+	width: 200px;
+	height: 250px;
+	z-index: 1;
+	left: 33px;
+	top: 200px;
+	background-color: #A48C36;
+}
+#dos {
+	position: absolute;
+	width: 200px;
+	height: 250px;
+	z-index: 1;
+	left: 250px;
+	top: 200px;
+	background-color: #A48C36;
+}
+#tres {
+	position: absolute;
+	width: 200px;
+	height: 250px;
+	z-index: 1;
+	left: 466px;
+	top: 200px;
+	background-color: #A48C36;
+}
+</style>
+<script src="../../SpryAssets/SpryEffects.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_effectShake(targetElement)
+{
+	Spry.Effect.DoShake(targetElement);
+}
+</script>
+</head>
+
+<body onload="MM_preloadImages('imagenes/pinterest_board_photo.png','imagenes/Dessert3.jpeg','imagenes/Dessert2.jpeg','imagenes/Dessert1.jpeg')">
+<div id ="contenedor">
+
+<div id="Back">
+  <div id="encabezado1">
+  <h1>COFFEEFFAST</h1>
+  <h2>Vida en una taza</h2></div>
+<div id="Logo"><img src="imagenes/logo_transparent.png" width="250" height="175" /></div>
+<div id="Contizq1">
+<h1>CAFE QUE DA VIDA AL ALMA</h1>
+<img src="imagenes/wall.jpg" width="300" height="900" /></div>
+<div id="Contder1"><p><br /><br /><br /><br /><br /><br /> <br /><br /><br /><br /><br /><br /> 
+En la parte de la izquierda podras ver y elegir una de nuestros postres que tenemos disponibles y podras visualizar uno de ellos un poco mas grande solo pasando por encima de ellos, sientete libre de elegir el que mas te atraiga cuando nos visites.</div>
+<div id="menu1">
+<div id="boton1"><a href="index.html">Inicio</a></div>
+<div id="boton2"><a href="Nosotros.html">Nosotros</a></div>
+<div id="boton3"><a href="Servicios.html">Servicios</a></div>
+<div id="boton4"><a href="Contactos.html">Contactos</a></div>
+
+</div>
+<div id="Central">
+<div id="Grande"><img src="imagenes/logo_transparent.png" name="grande" width="500" height="400" id="grande" onmouseover="MM_swapImage('grande','','imagenes/pinterest_board_photo.png',1)" onmouseout="MM_swapImgRestore()" /></div>
+<div id="uno"><img src="imagenes/Dessert1.jpeg" name="po1" width="200" height="250" id="po1" onclick="MM_effectShake(this)" onmouseover="MM_swapImage('grande','','imagenes/Dessert1.jpeg',1)" onmouseout="MM_swapImgRestore()" /></div>
+<div id="dos"><img src="imagenes/Dessert2.jpeg" name="pos2" width="200" height="250" id="pos2" onclick="MM_effectShake(this)" onmouseover="MM_swapImage('grande','','imagenes/Dessert2.jpeg',1)" onmouseout="MM_swapImgRestore()" /></div>
+<div id="tres"><img src="imagenes/Dessert3.jpeg" name="pos3" width="200" height="250" id="pos3" onclick="MM_effectShake(this)" onmouseover="MM_swapImage('grande','','imagenes/Dessert3.jpeg',1)" onmouseout="MM_swapImgRestore()" /></div>
+</div>
+<div id="Pie1">
+  <a href="https://www.facebook.com/"><IMG SRC="imagenes/facebook.png" WIDTH="75" HEIGHT="75" ALIGN="top"></a>
+  <a href="https://twitter.com/"><IMG SRC="imagenes/twitter.png" WIDTH="75" HEIGHT="75" ALIGN="top"></a>
+  <a href="https://www.instagram.com/?hl=es-la"><IMG SRC="imagenes/insta.png" WIDTH="75" HEIGHT="75" ALIGN="top"></a>
+</div>
+</div>
+</div>
+</body>
+</html>
